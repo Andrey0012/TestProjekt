@@ -10,14 +10,17 @@ public class Vector2DTest {
     public static void createNewVector2D () {
         vector2D = new Vector2D();
     }
+
     @Test
     public void newVector2DShouldHaveZeroLength () {
         Assert.assertEquals(0, vector2D.length(), EPS);
     }
+
     @Test
     public void newVector2DShouldHaveZeroX () {
         Assert.assertEquals(0, vector2D.getX(), EPS);
     }
+
     @Test
     public void newVector2DShouldHaveZeroY () {
         Assert.assertEquals(0, vector2D.getY(), EPS);
